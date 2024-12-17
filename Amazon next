@@ -1,0 +1,218 @@
+//HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+   <div class="navbar" >
+     <div id="1"><img id="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeW0IPq2mbPETsGAbatScAfATwgIc7UN2EzQ&s.png"></div>
+     <div id="2">
+        <div id="21"><p>Deliver</p></div>
+        <div id="22"><p>OK</p></div>
+     </div>
+     <div id="search">
+        <div id="a">All</div>
+        <div id="b"></div>
+     </div>
+     <div id="4"><p>EN</p></div>
+     <div id="5"><p>Acoount and list</p></div>
+     <div id="6"><p>Returns and orders</p></div>
+     <div id="7"><p>Cart</p></div>
+   </div>
+   <div class="navbar2" >
+       <div id="0"><p>Amazon pay</p></div>
+       <div id="0"><p>Giftcards</p></div>
+       <div id="0"><p>Buy again</p></div>
+       <div id="0"><p>All</p></div>
+       <div id="0"><p>Books</p></div>
+       <div id="0"><p>Coupons</p></div>
+       <div id="0"><p>Gift ideas</p></div>
+       <div id="0"><p>Personal care</p></div>
+       <div id="0"><p>Browse history</p></div>
+       <div id="0"><p>Today deals</p></div>
+       <div id="0"><p>Home improvement</p></div>
+       <div id="0"><p>Amazon basics</p></div>
+       <div id="0"><p>Customer care</p></div>
+       <div id="0"><p>All</p></div>
+       <div id="0"><p>Amazon.in</p></div>
+ 
+  </div>
+  <div id="main">
+ 
+  <div id="card">
+    <h2 >Revamp your home in style</h2>
+    <div id="mini1">
+        <div id="min1"></div>
+     <div id="min2"></div>
+    </div>  
+    <div id="mini1">
+        <div id="min3"></div>
+     <div id="min4"></div>
+    </div>  
+</div>
+   <div id="card">
+    <h2 >Revamp your home in style</h2>
+    <div id="mini1">
+        <div id="min1"></div>
+     <div id="min2"></div>
+    </div>  
+    <div id="mini1">
+        <div id="min3"></div>
+     <div id="min4"></div>
+    </div> 
+   </div>
+ <div id="card">
+    <h2 >Revamp your home in style</h2>
+    <div id="mini1">
+        <div id="min1"></div>
+     <div id="min2"></div>
+    </div>  
+    <div id="mini1">
+        <div id="min3"></div>
+     <div id="min4"></div>
+    </div> 
+ </div>
+  <div id="card">
+    <h2 >Revamp your home in style</h2>
+    <div id="mini1">
+        <div id="min1"></div>
+     <div id="min2"></div>
+    </div>  
+    <div id="mini1">
+        <div id="min3"></div>
+     <div id="min4"></div>
+    </div> 
+  </div>
+</div>
+</body>
+</html>
+
+//CSS
+body
+{
+  background-color: rgb(255, 255, 255);  
+}
+.navbar
+{   display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 65px;
+    background-color: rgb(21, 33, 51);
+}
+.navbar2
+{   display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 55px;
+    background-color: rgb(50, 65, 87);
+}
+
+#logo
+{  
+    width: 150px;
+   height:100%;
+}
+p
+{  font-size: 20px;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+}
+#search
+{
+    display: flex;
+width: 60%;
+height: 80%;
+border-radius: 10px;
+background-color: rgb(255, 255, 255);
+justify-content: space-between;
+}
+#a
+{
+height:100%;
+width:5%;
+border-radius: 10px;
+background-color: rgb(211, 216, 220);
+text-align: center;
+align-content: center;
+}
+#b
+{
+    height:100%;
+    width:5%;
+    border-radius: 5px;
+    background-color: rgb(250, 185, 5);
+}
+#main
+{  height: 1000px;
+    width: 100%;
+   display: flex;
+   justify-content: space-around;
+    background-image:url(https://images-eu.ssl-images-amazon.com/images/G/31/INSLGW/WRS/GW/pc_unrec_june_ubs._CB554831429_.png);
+    background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#card
+{  
+    margin-top: 320px;
+    height:540px;
+    width:450px;
+   background-color: rgb(255, 254, 254);
+
+}
+h2{
+    margin-left: 28px;
+}
+#mini1
+{  margin-left: 20px;
+    height:40%;
+    width:90%;
+    background-color: rgb(255, 255, 255);
+   margin-top: 10px;
+   display: flex;
+   justify-content:space-around;
+}
+
+
+#min1
+{
+    height: 100%;
+    width: 180px;
+
+    background-image:url(https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/186x116_Home_decor_1._SY116_CB584596691_.png);
+    background-size: cover;
+  background-repeat: no-repeat;
+}
+#min2
+{
+    height: 100%;
+    width: 180px;
+ 
+    background-image:url(https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/186x116_Home_furnishings_2._SY116_CB584596691_.png);
+    background-size: cover;
+  background-repeat: no-repeat;
+}
+#min3
+{
+    height: 100%;
+    width: 180px;
+
+    background-image:url(https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/186x116_Home_storage_1._SY116_CB584596691_.png);
+    background-size: cover;
+  background-repeat: no-repeat;
+}
+#min4
+{
+    height: 100%;
+    width: 180px;
+    background-image:url(https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/186x116_Home_lighting_2._SY116_CB584596691_.png);
+    background-size: cover;
+  background-repeat: no-repeat;
+}
